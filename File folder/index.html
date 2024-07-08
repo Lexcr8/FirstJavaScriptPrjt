@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="./img/worldwide.png"/>
+        <link rel="icon" href="../img/worldwide.png"/>
+        <link rel="stylesheet"  type="text/css" href="index.css">
      
     </head>
     <body>
        <header>
-        <div>
-            <div style="text-align:center;" >
-                <a href="#news">Home</a>
-                <a href="#news">About</a>
-                <a href="#contact">Resume</a>
-                <a href="#about">Contact</a>
-            </div>
+        <nav class="navbar">
+            <div class="navbar-brand">MyWebsite</div>
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="#home">Home</a></li>
+                <li class="navbar-item"><a href="#about">About</a></li>
+                <li class="navbar-item"><a href="#services">Services</a></li>
+                <li class="navbar-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         </header>
            
         </div>
 
-       <main>
-        <div style="width:600px; margin:auto;">
-            <img src="./img/boy.jpg" style="width:200px;height:250px;" >
-            <h1>Olajuwon Olalekan</h1>
-            <h3>Product designer</h3>
+        <div class="hero">
+            <img src="../img/boy.jpg" style="width:300px;height:350px;" >
         </div>
-           <section>
+        <div class="hero-title">
+            <h1>Olajuwon Olalekan</h1>
+
+        </div>
+           <section class="section">
                   <h1>About</h1>
-                  <P>My name is Olajuwon Olalekan i am a UX designer based in lagos with 4 years experience in design user centric products</P>
+                  <P>My name is Olajuwon Olalekan i am a UX designer based in lagos with 4 years experience in design user centric products.
+                    As a user advocate, my primary focus is to create meaningful and strategic user experiences. I have a passion for crafting solutions, solving problems, and delivering results quickly, with the goal of positively impacting billions of lives. My fascination with User Experience design encompasses all its aspects, but I particularly excel in ideation, storytelling, and visual design, aiming to create memorable experiences for users.
+                    With more than three years of experience in the product industry, 
+                    I have successfully launched products and services in diverse sectors such as Finance and Payments, Education, Consumer Tech, E-commerce, Health, Transportation, Real Estate, and Emerging Technologies.  
+                  </P>
            </section>     
-           <section>
+           <section class="work">
                   <h2>Work</h2> 
                 <h3>Below are some of my previous works</h3>
                 
                 <iframe width="200" height="250px"
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
-                <img src="./img/phone mock.jpg" style="width:400px;height:250px;">
-                <img src="./img/laptopyip.jpg" style="width:400px;height:250px;"><br>
+                <img src="../img/phone mock.jpg" style="width:400px;height:250px;">
+                <img src="../img/laptopyip.jpg" style="width:400px;height:250px;"><br>
                 <audio controls autoplay>
                     <source src="horse.mp3" type="audio/mpeg">
                   </audio>
@@ -77,7 +85,7 @@
                       </form> 
 
 
-                    <div style="text-align: center;">
+                    <div class="last">
 
                       <footer>This was created by Lex with HTML </footer>
                       <copywright>2024</copywright>
